@@ -5,8 +5,7 @@ subtitle: '修改hosts 文件 github clone 加速 访问 github 加速'
 author: "panmg"
 header-style: text
 tags:
-  - github.io
-  - Emacs
+  - github
 ---
 
 ### 修改hosts 文件 github clone 加速 访问 github 加速
@@ -38,7 +37,7 @@ tags:
 	已成功刷新 DNS 解析缓存。
 
 
-### 4. 最后, 到底有没有, 只能自己体会了
+### 4. 最后, 到底有没有用, 只能自己体会了
 
 
 
