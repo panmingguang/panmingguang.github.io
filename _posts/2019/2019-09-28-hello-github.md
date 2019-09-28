@@ -84,8 +84,8 @@ github.io 是 github 机构提供的 免费服务, 可以通过建一个仓库�
 * 使用这个面板 可以 不修改 原域名厂商的 dns解析
 * 登录后直接在 这个面板内 解析域名, 添加一条cname 解析
 
-	记录类型		主机名	内容		
-	CNAME	cocook.cn	panmingguang.github.io
+		记录类型		主机名	内容		
+		CNAME	cocook.cn	panmingguang.github.io
 
 * 面板下方会出现 很多课选择的 在域名上修改的 解析方式 ip4 ip6 cname ns等
 * 到自己的域名上 修改原来的 解析 cocook -> 到面板上提供的 地址
