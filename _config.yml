@@ -1,6 +1,6 @@
 # Site settings
-title: panmingguang Blog
-SEOTitle: 潘明光的博客 | panmingguang Blog
+title: panmg's Blog
+SEOTitle: 潘明光的博客 | panmg`s Blog
 header-img: img/home-bg.jpg
 email: panmingguang2004@gmail.com
 description: "java, mysql, linux, postgresql, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
@@ -13,9 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
+weibo_username:     panmingguang
+zhihu_username:     panmingguang
+github_username:    panmingguang
 #twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: pmg
 
 # Netease settings
 netease_comment: false
@@ -78,7 +78,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-about-description: "Every day is a chance to change lives <br> 每一天都是一个改变生活的机会"
 sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -103,34 +103,10 @@ page-mathjax: false
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
         title: "乱序",
         href: "http://mida.re/"
     },{
         title: "Sherry Wu",
         href: "https://xuechundesign.github.io"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "JiyinYiyong",
-        href: "http://tiye.me/"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
     }
 ]
