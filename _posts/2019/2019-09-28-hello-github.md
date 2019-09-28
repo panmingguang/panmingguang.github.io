@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "使用 github 免费 建 自己的 博客"
-subtitle: '使用 github.io 免费 建 自己的 博客'
+subtitle: 'Create your own blog for free with github.io'
 author: "panmg"
 header-style: text
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "修改hosts 文件 github clone 加速 访问 github 加速"
-subtitle: '修改hosts 文件 github clone 加速 访问 github 加速'
+subtitle: 'Modify the hosts file github clone speed up access github acceleration'
 author: "panmg"
 header-style: text
 tags:
