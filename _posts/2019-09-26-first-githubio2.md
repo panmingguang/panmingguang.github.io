@@ -9,23 +9,31 @@ tags:
   - Emacs
 ---
 
-Emacs tend to provide a good support for functional programming languages. Indeed, many FP language community exclusively use Emacs and give only first-party IDE supports to Emacs, such as Coq, Agda, Standard ML, Clojure, etc.
-
-For the purpose of programming Coq with Proof General, I started to try with Emacs. I quickly found Spacemacs a good alternatives for me...someone had get used to Vim keybindings and want to get some thing useful ASAP w/o configuring a long list as my `.vimrc`.
-
-Though the overall experience is pretty smooth, many quirks about Spacemacs are always being forgotten and had to look up again and again, so I decided to open a note for some specific "workflow" that I often used.
-
-Yes this is more like a note publishing online for the purpose of "on-demand accessible". So don't expect good writing anyways.
+### 修改hosts 文件 github clone 加速 访问 github 加速
 
 
-### 我的第一个github 博客页面
+我们可以通过修改hosts文件来提速,获取github的IP地址
 
-Choose `github`!
+> 1.手动访问：https://www.ipaddress.com/ 网址，然后依次获取以下三个网址的IP
+
+github.com
+github.global.ssl.fastly.net
+codeload.github.com
+
+这是我获取的IP
+
+192.30.253.113 github.com
+151.101.25.194 github.global.ssl.fastly.net
+192.30.253.121 codeload.github.com
+--------------------------------------------------------------------------------------
+修改系统本地的hosts文件，添加内容，Windows系统的hosts文件路径：C:\Windows\System32\drivers\etc\hosts
 
 
-### Airline
+> 2. 打开cmd 界面
 
-It's there!
+C:\Users\tomsun>ipconfig /flushdns
+Windows IP 配置
+已成功刷新 DNS 解析缓存。
 
 
 
