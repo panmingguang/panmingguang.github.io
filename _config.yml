@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 weibo_username:     panmingguang
-zhihu_username:     panmingguang
+zhihu_username:     pan-ming-guang
 github_username:    panmingguang
 #twitter_username:   huxpro
 #facebook_username:  huxpro
@@ -79,7 +79,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Every day is a chance to change lives <br> 每一天都是一个改变生活的机会"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
