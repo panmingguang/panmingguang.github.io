@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "使用 github 免费 建 自己的 博客"
+title: "使用 github GitHub Pages 免费 搭建 自己的 博客"
 subtitle: 'Create your own blog for free with github.io'
 author: "panmg"
 header-style: text
 catalog:    true
 tags:
   - github
+  - github Pages
 ---
 
 ### 使用 github 免费 建 自己的 博客
 
-github.io 是 github 机构提供的 免费服务, 可以通过建一个仓库上传 MD 文件自动 模板化
+GitHub Pages 是 github 机构提供的 免费服务, 可以通过建一个仓库上传 MD 文件自动 模板化
 
 有什么优势:
 * 稳定
@@ -27,7 +28,7 @@ github.io 是 github 机构提供的 免费服务, 可以通过建一个仓库�
 ### 最简单的方式 
 ### 1. 直接 clone 一个仓库
 
-打开 github 网站, 全网所都 github.io
+打开 github 网站, 全网搜索 github.io
 
 返回结果, 哇, 很多, 自己选, start 几千上的
 
