@@ -10,7 +10,7 @@ tags:
   - github Pages
 ---
 
-### 使用 github 免费 建 自己的 博客
+### 使用 github 免费 搭建 自己的 博客
 
 GitHub Pages 是 github 机构提供的 免费服务, 可以通过建一个仓库上传 MD 文件自动 模板化
 

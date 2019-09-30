@@ -3,8 +3,8 @@ title: cocook小站
 SEOTitle: cocook小站 | panmg`s Blog
 header-img: img/home-bg.jpg
 email: panmingguang2004@gmail.com
-description: "java, mysql, linux, postgresql, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-keyword: "java, mysql, linux, postgresql, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+description: "java, mysql, linux, postgresql, cocook小站, panmg's blogs, 潘明光的博客"
+keyword: "java, mysql, linux, postgresql, cocook小站, panmg's blogs, 潘明光的博客"
 url: "https://cocook.cn"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
