@@ -20,7 +20,7 @@ tags:
 `cd /usr/local/caddy` 新建 Caddyfile
 编辑 Caddyfile 加入以下配置
 
-```nginx
+```sh
 	http://47.97.156.168 { # 修改域名, 如果没有先写ip
 	    gzip
 	    #tls admin@moerats.com   # 自动 https, 有域名后放开,加自己邮箱
@@ -35,10 +35,10 @@ tags:
 	#http://www.cocook.cn {
 	#redir https://www.cocook.cn{url}
 	#}
-	```nginx
+	```sh
 	
 	## 常用caddy 备忘
-```nginx
+```sh
 	启动：/etc/init.d/caddy start
 	停止：/etc/init.d/caddy stop
 	重启：/etc/init.d/caddy restart
@@ -47,12 +47,12 @@ tags:
 	安装目录：/usr/local/caddy
 	Caddy配置文件位置：/usr/local/caddy/Caddyfile
 	Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
-```nginx
+```sh
 
 ## 启动失败 , 查看是否安装其他的 web服务
 
 `netstat -nlpt`
-```nginx
+```sh
 	Active Internet connections (only servers)
 	Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name   
 	tcp        0      0 127.0.0.1:9000              0.0.0.0:*                   LISTEN      465/php-fpm         
@@ -60,6 +60,6 @@ tags:
 	tcp        0      0 0.0.0.0:80                  0.0.0.0:*                   LISTEN      7169/caddy          
 	tcp        0      0 0.0.0.0:22                  0.0.0.0:*                   LISTEN      1369/sshd           
 	tcp        0      0 127.0.0.1:25                0.0.0.0:*                   LISTEN      1471/master  
-```nginx
+```sh
 
 
