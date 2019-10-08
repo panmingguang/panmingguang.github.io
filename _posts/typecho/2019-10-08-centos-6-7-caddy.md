@@ -23,9 +23,13 @@ tags:
 编辑 Caddyfile 加入以下配置
 
 ```nginx
-	http://47.97.156.168 { # 修改域名, 如果没有先写ip
+	http://blog.cocook.cn {
+	redir https://blog.cocook.cn{url}
+	}
+	
+	https://blog.cocook.cn {
 	    gzip
-	    #tls admin@moerats.com   # 自动 https, 有域名后放开,加自己邮箱
+	    tls 414072243@qq.com
 	    root /data/typecho
 	    fastcgi / 127.0.0.1:9000 php
 	    rewrite {
@@ -33,10 +37,6 @@ tags:
 	        to {path} {path}/ /index.php?{query}
 	     }
 	}
-	#重定向
-	#http://www.cocook.cn {
-	#redir https://www.cocook.cn{url}
-	#}
 	```
 	
 ## 常用caddy 备忘
