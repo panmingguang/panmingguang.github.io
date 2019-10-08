@@ -38,7 +38,7 @@ tags:
 	```sh
 	
 	## 常用caddy 备忘
-```sh
+```java
 	启动：/etc/init.d/caddy start
 	停止：/etc/init.d/caddy stop
 	重启：/etc/init.d/caddy restart
@@ -47,7 +47,7 @@ tags:
 	安装目录：/usr/local/caddy
 	Caddy配置文件位置：/usr/local/caddy/Caddyfile
 	Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
-```sh
+```java
 
 ## 启动失败 , 查看是否安装其他的 web服务
 
