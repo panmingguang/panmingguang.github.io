@@ -35,10 +35,10 @@ tags:
 	#http://www.cocook.cn {
 	#redir https://www.cocook.cn{url}
 	#}
-	```bash
+	```
 	
 ## 常用caddy 备忘
-```coq
+```
 	启动：/etc/init.d/caddy start
 	停止：/etc/init.d/caddy stop
 	重启：/etc/init.d/caddy restart
@@ -52,7 +52,7 @@ tags:
 ## 启动失败 , 查看是否安装其他的 web服务
 
 `netstat -nlpt`
-```coq
+```nginx
 	Active Internet connections (only servers)
 	Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name   
 	tcp        0      0 127.0.0.1:9000              0.0.0.0:*                   LISTEN      465/php-fpm         
