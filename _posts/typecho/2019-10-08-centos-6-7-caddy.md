@@ -37,7 +37,7 @@ tags:
 	        to {path} {path}/ /index.php?{query}
 	     }
 	}
-	```
+```
 	
 ## 常用caddy 备忘
 ```
