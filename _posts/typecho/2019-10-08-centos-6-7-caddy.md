@@ -38,7 +38,7 @@ tags:
 	```bash
 	
 ## 常用caddy 备忘
-```java
+```coq
 	启动：/etc/init.d/caddy start
 	停止：/etc/init.d/caddy stop
 	重启：/etc/init.d/caddy restart
@@ -47,12 +47,12 @@ tags:
 	安装目录：/usr/local/caddy
 	Caddy配置文件位置：/usr/local/caddy/Caddyfile
 	Caddy自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/
-```java
+```
 
 ## 启动失败 , 查看是否安装其他的 web服务
 
 `netstat -nlpt`
-```sh
+```coq
 	Active Internet connections (only servers)
 	Proto Recv-Q Send-Q Local Address               Foreign Address             State       PID/Program name   
 	tcp        0      0 127.0.0.1:9000              0.0.0.0:*                   LISTEN      465/php-fpm         
@@ -60,6 +60,6 @@ tags:
 	tcp        0      0 0.0.0.0:80                  0.0.0.0:*                   LISTEN      7169/caddy          
 	tcp        0      0 0.0.0.0:22                  0.0.0.0:*                   LISTEN      1369/sshd           
 	tcp        0      0 127.0.0.1:25                0.0.0.0:*                   LISTEN      1471/master  
-```sh
+```
 
 
