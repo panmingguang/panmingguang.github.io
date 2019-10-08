@@ -20,7 +20,7 @@ tags:
 `cd /usr/local/caddy` 新建 Caddyfile
 编辑 Caddyfile 加入以下配置
 
-```sh
+```bash
 	http://47.97.156.168 { # 修改域名, 如果没有先写ip
 	    gzip
 	    #tls admin@moerats.com   # 自动 https, 有域名后放开,加自己邮箱
@@ -35,7 +35,7 @@ tags:
 	#http://www.cocook.cn {
 	#redir https://www.cocook.cn{url}
 	#}
-	```sh
+	```bash
 	
 	## 常用caddy 备忘
 ```java
