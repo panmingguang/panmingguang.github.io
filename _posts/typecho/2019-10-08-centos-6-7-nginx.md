@@ -37,6 +37,8 @@ http://nginx.org/en/docs/
 # 查看端口占用 80
 `netstat -nlpt`
 
+## php /etc/php.ini 需要开启 ;cgi.fix_pathinfo=1 把; 去掉
+
 ## typecho 配置
 ```nginx
 	server {
