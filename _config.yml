@@ -108,5 +108,9 @@ friends: [
    {
         title: "cocook小站",
         href: "https://blog.cocook.cn"
+    },
+     {
+        title: "全网影视搜",
+        href: "https://search.cocook.cn/"
     }
 ]
