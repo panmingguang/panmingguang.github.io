@@ -106,11 +106,11 @@ page-mathjax: false
 # Friends
 friends: [
    {
-        title: "cocook小站",
+        title: "cocook今日頭條",
         href: "https://blog.cocook.cn"
     },
      {
-        title: "全网影视搜",
+        title: "cocook全网影视搜",
         href: "https://search.cocook.cn/"
     }
 ]
