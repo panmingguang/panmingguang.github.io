@@ -48,17 +48,17 @@ tags:
 
 >服务器上CentOS大部分未安装图形界面，但是Rclone必须要在有内置浏览器的电脑才能正常完成授权，因此这里使用的办法是先在本地Windows电脑安装Rclone并获取授权后的token，再将其复制到CentOS的服务器上。
 
-** 1.安装rclone, 先 安装windows版的 获取 token
+** 1.安装rclone, 先 安装windows版的 获取 token **
 	
 [win64下载地址 ](https://downloads.rclone.org/v1.41/rclone-v1.41-windows-amd64.zip)
 
  安装后 使用 rclone config 获取 token 
 
-** 2. 安装centos 版的 rclone config , 填入 windows 获取到token 
+** 2. 安装centos 版的 rclone config , 填入 windows 获取到token **
 	
 安装 curl https://rclone.org/install.sh | sudo bash
 	
-** 3. 继续挂载
+** 3. 继续挂载 **
 
 	```	nginx
 		#安装fuse
