@@ -60,7 +60,7 @@ tags:
 	
 **3. 继续挂载**
 
-	```	nginx
+	```nginx
 		#安装fuse
 		yum -y install fuse
 		#创建挂载目录
