@@ -24,13 +24,9 @@ tags:
 * [my365](https://search.cocook.cn/redirect?url=http://my365.tw/)   A1，不支持Office桌面版本！
 * [chacuo](https://search.cocook.cn/redirect?url=http://24mail.chacuo.net/)   未验证
 
->特别提醒：这个邮箱只需复制邮箱ID，不需要复制@chacuo.net，注册的时候请使用邮箱ID+@stu.mao.office.gy 即可！
+>特别提醒：chacuo 这个邮箱只需复制邮箱ID，不需要复制@chacuo.net，注册的时候请使用邮箱ID+@stu.mao.office.gy 即可！
 如：ifkbdp74390@stu.mao.office.gy
 申请成功后需要加入N软的组（NRuan.com）内，否则会被删除：https://account.activedirectory.windowsazure.com/r#/groups
-
-
-
-
 
 
 推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
