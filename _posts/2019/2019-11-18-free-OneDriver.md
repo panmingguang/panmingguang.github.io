@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "申请 免费OneDrive 5T 网盘教育邮箱"
-subtitle: '申请 免费OneDrive 5T 网盘教育邮箱'
+title: "申请 免费OneDrive 5T 网盘教育邮箱, rclone raiDriver 挂在硬盘"
+subtitle: '申请 免费OneDrive 5T 网盘教育邮箱, rclone raiDriver 挂在硬盘'
 author: "panmg"
 header-style: text
 catalog:    true
@@ -29,7 +29,20 @@ tags:
 申请成功后需要加入N软的组（NRuan.com）内，否则会被删除：https://account.activedirectory.windowsazure.com/r#/groups
 
 
-推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
 
+## 使用 rclone raiDriver 挂在硬盘
+
+`raiDriver` 挂在硬盘 的优点是 直接虚拟一个盘符出来, 不用占用自己 磁盘的空间, 直接安装就可以, 可以挂载的 很多应用盘
+下载 客户端 直接安装即可, windows版本适用  [raiDriver下载地址](https://search.cocook.cn/redirect?url=https://www.raidrive.com/Download) 
+直接应用授权即可
+这是我自己挂的oneDriver 
+
+![](/img/raidriver.jpg)
+
+
+
+
+
+>推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
 推廣 每日熱點   [cocook 每日熱點](https://blog.cocook.cn/)
 
