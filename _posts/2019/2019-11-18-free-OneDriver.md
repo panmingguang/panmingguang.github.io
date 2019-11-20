@@ -19,9 +19,7 @@ tags:
 
 * [odmail](https://search.cocook.cn/redirect?url=https://t.odmail.cn/)   验证可用, 5T 无 office365
 * [xkx](https://search.cocook.cn/redirect?url=http://xkx.me/)   未验证
-* [office2016](https://search.cocook.cn/redirect?url=http://office2016.live/)   未验证
 * [readmail](https://search.cocook.cn/redirect?url=http://onedrive.readmail.net/)   未验证
-* [my365](https://search.cocook.cn/redirect?url=http://my365.tw/)   A1，不支持Office桌面版本！
 * [chacuo](https://search.cocook.cn/redirect?url=http://24mail.chacuo.net/)   未验证
 
 >特别提醒：chacuo 这个邮箱只需复制邮箱ID，不需要复制@chacuo.net，注册的时候请使用邮箱ID+@stu.mao.office.gy 即可！
