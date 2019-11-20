@@ -50,23 +50,26 @@ tags:
 
 * 1.安装rclone, 先 安装windows版的 获取 token
 	
-	  [win64下载地址 ](https://downloads.rclone.org/v1.41/rclone-v1.41-windows-amd64.zip)
-	      安装后 使用 rclone config 获取 token 
+[win64下载地址 ](https://downloads.rclone.org/v1.41/rclone-v1.41-windows-amd64.zip)
+
+ 安装后 使用 rclone config 获取 token 
 
 * 2. 安装centos 版的 rclone config , 填入 windows 获取到token 
 	
-	安装 curl https://rclone.org/install.sh | sudo bash
+安装 curl https://rclone.org/install.sh | sudo bash
 	
 * 3. 继续挂载
-	
-	#安装fuse
-	yum -y install fuse
-	#创建挂载目录
-	mkdir -p /home/onedrive
-	#挂载
-	rclone mount remote:path/to/files /home/onedrive
-	#如果需要后台保持运行，使用下面的命令
-	nohup rclone mount remote:path/to/files /home/onedrive &
+
+	```	nginx
+		#安装fuse
+		yum -y install fuse
+		#创建挂载目录
+		mkdir -p /home/onedrive
+		#挂载
+		rclone mount remote:path/to/files /home/onedrive
+		#如果需要后台保持运行，使用下面的命令
+		nohup rclone mount remote:path/to/files /home/onedrive &
+	```
 	
 ![image](/img/rclone.jpg)
 
