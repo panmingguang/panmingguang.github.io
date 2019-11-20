@@ -59,17 +59,17 @@ tags:
 安装 curl https://rclone.org/install.sh | sudo bash
 	
 **3. 继续挂载**
+```nginx
 
-	```nginx
-		#安装fuse
-		yum -y install fuse
-		#创建挂载目录
-		mkdir -p /home/onedrive
-		#挂载
-		rclone mount remote:path/to/files /home/onedrive
-		#如果需要后台保持运行，使用下面的命令
-		nohup rclone mount remote:path/to/files /home/onedrive &
-	```
+	#安装fuse
+	yum -y install fuse
+	#创建挂载目录
+	mkdir -p /home/onedrive
+	#挂载
+	rclone mount remote:path/to/files /home/onedrive
+	#如果需要后台保持运行，使用下面的命令
+	nohup rclone mount remote:path/to/files /home/onedrive &
+```
 	
 ![image](/img/rclone.jpg)
 
