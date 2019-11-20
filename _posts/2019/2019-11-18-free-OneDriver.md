@@ -32,15 +32,55 @@ tags:
 
 ## 使用 rclone raiDriver 挂在硬盘
 
+### raiDriver windows 上用
+
 `raiDriver` 挂在硬盘 的优点是 直接虚拟一个盘符出来, 不用占用自己 磁盘的空间, 直接安装就可以, 可以挂载的 很多应用盘
 下载 客户端 直接安装即可, windows版本适用  [raiDriver下载地址](https://search.cocook.cn/redirect?url=https://www.raidrive.com/Download) 
 直接应用授权即可
 这是我自己挂的oneDriver 
 
-![](/img/raidriver.jpg)
+![image](/img/raidriver.jpg)
 
 
+### rclone 可用于 window 或 linux
 
+具体安装教程 [点这里](https://search.cocook.cn/redirect?url=https://www.xiaoz.me/archives/10397)
+
+>服务器上CentOS大部分未安装图形界面，但是Rclone必须要在有内置浏览器的电脑才能正常完成授权，因此这里使用的办法是先在本地Windows电脑安装Rclone并获取授权后的token，再将其复制到CentOS的服务器上。
+
+* 1.安装rclone, 先 安装windows版的 获取 token
+	
+	  [win64下载地址 ](https://downloads.rclone.org/v1.41/rclone-v1.41-windows-amd64.zip)
+	      安装后 使用 rclone config 获取 token 
+
+* 2. 安装centos 版的 rclone config , 填入 windows 获取到token 
+	
+	安装 curl https://rclone.org/install.sh | sudo bash
+	
+* 3. 继续挂载
+	
+	#安装fuse
+	yum -y install fuse
+	#创建挂载目录
+	mkdir -p /home/onedrive
+	#挂载
+	rclone mount remote:path/to/files /home/onedrive
+	#如果需要后台保持运行，使用下面的命令
+	nohup rclone mount remote:path/to/files /home/onedrive &
+	
+![image](/img/rclone.jpg)
+
+### oneindex 一个php 写的 可用于 oneDriver上传 浏览工具
+
+ [github地址](https://github.com/donwa/oneindex), 有兴趣的可以捣鼓一下
+ 
+
+### multcloud  可以连接 onedrive googledriver 还有 百度云盘等工具
+
+官网地址： [multcloud](https://search.cocook.cn/redirect?url=https://www.multcloud.com)
+有免费流量,可以在网盘中互转 备份, 主要是可以轻松　使用`googleDriver`, 不用翻墙，　可以用来备用一下
+
+![image](/img/multCloud.jpg)
 
 
 >推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
