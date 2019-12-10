@@ -37,7 +37,7 @@ tags:
 直接应用授权即可
 这是我自己挂的oneDriver 
 
-![image](/img/raidriver.jpg)
+![image](https://cocook.cn/img/raidriver.jpg)
 
 
 ### rclone 可用于 window 或 linux
@@ -69,7 +69,7 @@ tags:
 	nohup rclone mount remote:path/to/files /home/onedrive &
 ```
 	
-![image](/img/rclone.jpg)
+![image](https://cocook.cn/img/rclone.jpg)
 
 ### oneindex 一个php 写的 可用于 oneDriver上传 浏览工具
 
@@ -81,7 +81,7 @@ tags:
 官网地址： [multcloud](https://search.cocook.cn/redirect?url=https://www.multcloud.com)
 有免费流量,可以在网盘中互转 备份, 主要是可以轻松　使用`googleDriver`, 不用翻墙，　可以用来备用一下
 
-![image](/img/multCloud.jpg)
+![image](https://cocook.cn/img/multCloud.jpg)
 
 
 >推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
