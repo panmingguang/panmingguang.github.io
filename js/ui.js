@@ -53,7 +53,7 @@
 			li.className = 'pure-menu-item pure-menu-selected';
 			return;
 		}
-		if(url.indexOf(location.href) !=-1){
+		if(location.href.indexOf(url) !=-1){
 			li.className = 'pure-menu-item pure-menu-selected';
 			return;
 		}
