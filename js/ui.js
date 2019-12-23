@@ -3,21 +3,7 @@
     var layout   = document.getElementById('layout'),
         menu     = document.getElementById('menu'),
         menuLink = document.getElementById('menuLink'),
-        content  = document.getElementById('main'),
-		elems = document.querySelectorAll('#menu .pure-menu-item');
-	for(var i=0;i<elems.length;i++){
-		var li = elems[i];
-		var url = li.querySelectorAll('a')[0].href;
-		
-		if(url == location.href){
-			li.className = 'pure-menu-item pure-menu-selected';
-			return;
-		}
-		if(url.indexOf(location.href) !=-1){
-			li.className = 'pure-menu-item pure-menu-selected';
-			return;
-		}
-	}
+        content  = document.getElementById('main');
 
     function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
@@ -58,5 +44,20 @@
     };
 
 
+    var elems = document.querySelectorAll('#menu .pure-menu-item');
+	for(var i=0;i<elems.length;i++){
+		var li = elems[i];
+		var url = li.querySelectorAll('a')[0].href;
+		
+		if(url == location.href){
+			li.className = 'pure-menu-item pure-menu-selected';
+			return;
+		}
+		if(url.indexOf(location.href) !=-1){
+			li.className = 'pure-menu-item pure-menu-selected';
+			return;
+		}
+	}
+    
 
 }(this, this.document));
