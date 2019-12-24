@@ -48,12 +48,9 @@
 	for(var i=0;i<elems.length;i++){
 		var li = elems[i];
 		var url = li.querySelectorAll('a')[0].href;
-		
-		if(url == location.href){
-			li.className = 'pure-menu-item pure-menu-selected';
-			return;
-		}
-		if(location.href.indexOf(url) !=-1){
+		var locationUrl =  location.protocol +'//'+ window.location.host + location.pathname;
+		//console.log(url +"===" +locationUrl )
+		if(url == locationUrl){
 			li.className = 'pure-menu-item pure-menu-selected';
 			return;
 		}
