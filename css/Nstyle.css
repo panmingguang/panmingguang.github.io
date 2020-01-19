@@ -24,7 +24,7 @@
 /*  1.  Theme default CSS
 /*----------------------------------------*/
 /*-- Google Font --*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700,800");
+/*--@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:300,400,500,600,700,800");**/
 /*-- Common Style --*/
 *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
