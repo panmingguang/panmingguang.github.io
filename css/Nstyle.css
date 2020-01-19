@@ -1612,7 +1612,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (max-width: 767px) { .single-post .post-wrap .content .dropcap::first-letter { font-size: 70px; } }
 
-.single-post .post-wrap .content > img { margin-bottom: 30px; max-width: 100%; }
+.single-post .post-wrap .content  img { margin-bottom: 30px; max-width: 100%; }
 
 .single-post .post-wrap .content .blockquote { margin-bottom: 30px; }
 
