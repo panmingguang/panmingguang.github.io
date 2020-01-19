@@ -1612,8 +1612,8 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (max-width: 767px) { .single-post .post-wrap .content .dropcap::first-letter { font-size: 70px; } }
 
-.single-post .post-wrap .content > img { margin-bottom: 30px; max-width: 100%; }
-.single-post .post-wrap .content p img { margin-top: 30px max-width: 100%; }
+.single-post .post-wrap .content > img { width: -webkit-fill-available; display: -webkit-box; margin-bottom: 30px; max-width: 100%; }
+.single-post .post-wrap .content p img { width: -webkit-fill-available; display: -webkit-box; margin-top: 30px; max-width: 100%; }
 
 .single-post .post-wrap .content .blockquote { margin-bottom: 30px; }
 
@@ -1767,7 +1767,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .single-blog .blog-wrap .content { /*-- Blockquote --*/ /*-- Read More Button --*/ }
 
-.single-blog .blog-wrap .content p { margin-bottom: 30px; display: block; float: left; }
+.single-blog .blog-wrap .content p { margin-bottom: 30px; display: block;}
 
 .single-blog .blog-wrap .content p span { line-height: 32px; color: #444444; margin-bottom: 20px; }
 
