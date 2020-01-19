@@ -2111,9 +2111,9 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 /*-- Sidebar Subscribe --*/
 .sidebar-subscribe { position: relative; z-index: 1; text-align: center; background-color: #f6f6f6; padding: 47px 30px; /*-- Sidebar Subscribe Form --*/ }
 
-.sidebar-subscribe::before { content: url("img/shape/mail-1.png"); left: 0; position: absolute; top: 0; z-index: -1; }
+.sidebar-subscribe::before { content: url("/img/mail-1.png"); left: 0; position: absolute; top: 0; z-index: -1; }
 
-.sidebar-subscribe::after { bottom: 0; content: url("img/shape/mail-2.png"); position: absolute; right: 0; z-index: -1; }
+.sidebar-subscribe::after { bottom: 0; content: url("/img/mail-2.png"); position: absolute; right: 0; z-index: -1; }
 
 .sidebar-subscribe h4 { display: block; font-weight: 600; margin-bottom: 13px; }
 
