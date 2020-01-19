@@ -1594,7 +1594,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .single-post .post-wrap .content { /*-- Blockquote --*/ }
 
-.single-post .post-wrap .content p { margin-bottom: 30px; display: block; float: left; }
+.single-post .post-wrap .content p { margin-bottom: 30px; display: block;}
 
 .single-post .post-wrap .content p span { line-height: 32px; color: #444444; margin-bottom: 20px; }
 
