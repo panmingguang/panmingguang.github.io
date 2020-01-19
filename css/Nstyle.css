@@ -1286,6 +1286,8 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .post .post-wrap .content p { margin-bottom: 0; margin-top: 10px; }
 
+.post .post-wrap .content img { width: -webkit-fill-available; display: -webkit-box; width: 100%; }
+
 .post .post-wrap .content .read-more { margin-top: 16px; text-transform: capitalize; font-weight: 600; color: #666666; text-decoration: underline; font-size: 13px; }
 
 .post.post-default-list .post-wrap { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; }
