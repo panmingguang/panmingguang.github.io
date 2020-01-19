@@ -1612,8 +1612,8 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (max-width: 767px) { .single-post .post-wrap .content .dropcap::first-letter { font-size: 70px; } }
 
-.single-post .post-wrap .content > img { width: -webkit-fill-available; display: -webkit-box; margin-bottom: 30px; max-width: 100%; }
-.single-post .post-wrap .content p img { width: -webkit-fill-available; display: -webkit-box; margin-top: 30px; max-width: 100%; }
+.single-post .post-wrap .content > img { display: block; margin-bottom: 30px; max-width: 100%; }
+.single-post .post-wrap .content p img { display: block; margin-top: 30px; max-width: 100%; }
 
 .single-post .post-wrap .content .blockquote { margin-bottom: 30px; }
 
