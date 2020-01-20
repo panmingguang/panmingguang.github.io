@@ -1225,7 +1225,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .post .post-wrap { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; /*-- Image --*/ /*-- Category --*/ /*-- Content --*/ }
 
-.post .post-wrap .image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 auto; flex: 0 0 auto; float: left; margin-bottom: 17px; /*-- Video Popup Button --*/ }
+.post .post-wrap .image { position: relative; -webkit-box-flex: 0; -ms-flex: 0 0 auto; flex: 0 0 auto; float: left; margin-bottom: 17px;  height: 200px; overflow: hidden;/*-- Video Popup Button --*/ }
 
 .post .post-wrap .image img { width: 100%; }
 
