@@ -614,6 +614,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
 
 .page-pagination ul li a:hover { color: #00c8fa; border-color: #00c8fa; }
 
+.page-pagination ul li.active a { background-color: #00c8fa; border-color: #00c8fa; color: #ffffff; }
+
 .page-pagination-2 ul li { display: inline-block; }
 
 .page-pagination-2 ul li a { display: block; width: 30px; height: 30px; border: 1px solid #dddddd; line-height: 30px; text-align: center; color: #666666; font-weight: 600; border-radius: 50%; }
