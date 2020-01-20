@@ -1396,7 +1396,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 .post.post-overlay .post-wrap .category { position: absolute; left: 0; top: 0; }
 
-.post.post-overlay .post-wrap .content { position: absolute; left: 20px; bottom: 20px; right: 20px; width: auto; /*-- Title --*/ /*-- Meta Tags --*/ }
+.post.post-overlay .post-wrap .content { position: absolute; left: 20px; bottom: 30px; right: 20px; width: auto; /*-- Title --*/ /*-- Meta Tags --*/ }
 
 .post.post-overlay .post-wrap .content .title a { color: #ffffff; }
 
