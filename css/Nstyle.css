@@ -1631,7 +1631,7 @@ blockquote.blockquote.blockquote-bg p { color: #a7bdd6; }
 
 @media only screen and (max-width: 767px) { .single-post .post-wrap .tags-social .post-social { width: 100%; margin-top: 15px; } }
 
-.single-post .post-wrap .tags-social .post-social a { background-color: #00c8fa; width: 36px; height: 36px; border-radius: 3px; text-align: center; color: #ffffff; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4); }
+.single-post .post-wrap .tags-social .post-social a { background-color: #00c8fa; width: 30px; height: 30px; border-radius: 3px; text-align: center; color: #ffffff; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4); }
 
 .single-post .post-wrap .tags-social .post-social a i { font-size: 16px; line-height: 38px; }
 
