@@ -550,7 +550,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { opacity: 1; -ms-fi
     Page Banner
 -----------------------------------------*/
 /*-- Page Banner --*/
-.page-banner { background-repeat: no-repeat; background-size: cover; background-position: center right; padding: 64px 30px; overflow: hidden; /*-- Page Breadcrumb --*/ }
+.page-banner { background-repeat: no-repeat; background-size: cover; background-position: center right; padding: 45px 30px; overflow: hidden; /*-- Page Breadcrumb --*/ }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { .page-banner { padding: 37px 30px; } }
 
