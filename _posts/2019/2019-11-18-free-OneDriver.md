@@ -70,7 +70,12 @@ https://www.xiaoz.me/archives/10397
 	#如果需要后台保持运行，使用下面的命令
 	nohup rclone mount remote:path/to/files /home/onedrive &
 	
-	rclone mount onedrive:ServerBackUp/backup /home/onedrive  --umask 0000  --default-permissions  --allow-non-empty  --allow-other  --transfers 4  --buffer-size 32M  --low-level-retries 200
+	rclone mount onedrive:ServerBackUp/backup /home/onedrive  --umask 0000  --default-permissions  --allow-non-empty  --allow-other  --transfers 4  --buffer-size 32M  --low-level-retries 200 &
+	
+	//国外使用googledriver 速度快, 国内申请到的 onedriver大部分在香港参考地址
+	//https://www.moerats.com/archives/877/
+	rclone mount google:/DB /home/ggdrive --umask 0000 --default-permissions --allow-non-empty --allow-other --transfers 4 --buffer-size 32M --low-level-retries 200
+	
 ```
 	
 ![image](https://cocook.cn/img/rclone.jpg)
