@@ -32,6 +32,8 @@ tags:
 
 ### raiDriver windows 上用
 
+https://www.xiaoz.me/archives/10397
+
 `raiDriver` 挂在硬盘 的优点是 直接虚拟一个盘符出来, 不用占用自己 磁盘的空间, 直接安装就可以, 可以挂载的 很多应用盘
 下载 客户端 直接安装即可, windows版本适用  [raiDriver下载地址](https://search.cocook.cn/redirect?url=https://www.raidrive.com/Download) 
 直接应用授权即可
