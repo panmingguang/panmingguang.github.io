@@ -94,5 +94,5 @@ https://www.xiaoz.me/archives/10397
 
 
 >推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
-推廣 每日熱點   [cocook 每日熱點](https://blog.cocook.cn/)
+推廣 每日熱點   [cncknews](https://www.cncknews.com/)
 
