@@ -16,12 +16,18 @@ tags:
 ```	
 
 	[root@mail ~]# yum -y install postfix.x86_64 dovecot.x86_64  cyrus-sasl
+	
+	yum install cyrus-sasl-plain
+	
 	（postfix主要是为发件服务25，devocot为收件服务110、145， cyrus-sasl登陆验证服务）
 ```
 
 
 步骤,安装 改配置  建用户, 测试 发送邮件, 最后使用 javamail 连接, 注意开发端口 25, 或改端口
 
+添加 解析, MX A 记录 
+
+添加 SPF(否则gmail qq等监测会退信)   txt   v=spf1 ip4:107.150.37.60 ip4:107.150.37.61 ~all
 
 ## 参考 
 
