@@ -85,7 +85,7 @@ https://www.cnblogs.com/xiangyu5945/p/11121055.html
 http://docs.kubernetes.org.cn/618.html
 https://kubernetes.io/zh/docs/tasks/configure-pod-container/configure-pod-configmap/
 
->推廣 影視在線搜索, 有倫理 有美劇, 有動漫   [cocook 全網影視搜索](https://search.cocook.cn/)
+>> 开开车, 注意打开方式 [JAV高清名优](https://www.kspp.xyz)
 
 >推廣 每日熱點   [cocook 每日熱點](https://blog.cocook.cn/)
 
