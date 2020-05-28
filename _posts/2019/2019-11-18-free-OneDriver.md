@@ -93,6 +93,6 @@ https://www.xiaoz.me/archives/10397
 ![image](https://cocook.cn/img/multCloud.jpg)
 
 
-> 开开车, 注意打开方式 [JAV高清名优](https://www.kspp.xyz)
+> 开开车, 注意打开方式 [JAV高清名优](https://www.xkspp.com)
 推廣 每日熱點   [cncknews](https://www.cncknews.com/)
 

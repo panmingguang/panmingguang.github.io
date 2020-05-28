@@ -85,7 +85,7 @@ https://www.cnblogs.com/xiangyu5945/p/11121055.html
 http://docs.kubernetes.org.cn/618.html
 https://kubernetes.io/zh/docs/tasks/configure-pod-container/configure-pod-configmap/
 
->> 开开车, 注意打开方式 [JAV高清名优](https://www.kspp.xyz)
+>> 开开车, 注意打开方式 [JAV高清名优](https://www.xkspp.com)
 
 >推廣 每日熱點   [cocook 每日熱點](https://blog.cocook.cn/)
 

@@ -47,7 +47,7 @@ c、打开注册表（cmd-regedit），在HKEY_CURRENT_USER\Software\Microsoft\F
 
 
 
->> 开开车, 注意打开方式 [JAV高清名优](https://www.kspp.xyz)
+>> 开开车, 注意打开方式 [JAV高清名优](https://www.xkspp.com)
 
 >推廣 每日熱點   [cocook 每日熱點](https://blog.cocook.cn/)
 
