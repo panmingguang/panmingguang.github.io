@@ -73,8 +73,16 @@ https://www.xiaoz.me/archives/10397
 	rclone mount onedrive:ServerBackUp/backup /home/onedrive  --umask 0000  --default-permissions  --allow-non-empty  --allow-other  --transfers 4  --buffer-size 32M  --low-level-retries 200 &
 	
 	//国外使用googledriver 速度快, 国内申请到的 onedriver大部分在香港参考地址
+	// 跳过自动授权, 输入网址后直接 填入 token
+	//Remote config
+	//Use auto config?
+	// * Say Y if not sure
+	// * Say N if you are working on a remote or headless machine
+	//y) Yes (default)
+	//n) No
+	//y/n> n
 	//https://www.moerats.com/archives/877/
-	rclone mount google:/DB /home/ggdrive --umask 0000 --default-permissions --allow-non-empty --allow-other --transfers 4 --buffer-size 32M --low-level-retries 200
+	rclone mount google:/DB /home/google --umask 0000 --default-permissions --allow-non-empty --allow-other --transfers 4 --buffer-size 32M --low-level-retries 200 &
 	
 ```
 	
